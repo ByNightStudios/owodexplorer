@@ -1,0 +1,28 @@
+.Content-info-bar{
+    .Info-bar{
+        display: flex;
+
+        .Left-bar-items{
+
+            width: 18.5%;
+        }
+        .Tree-ant{
+            justify-content: end !important;
+            padding-left: 50px !important;
+            padding-top: 20px;
+            flex-direction: column;
+            margin-right: 1.5%;
+            ul {
+                flex-direction: column;
+            }
+        }
+
+        .Information-processing{
+            width: 80%;
+            background: lightblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
